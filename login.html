@@ -1,0 +1,20 @@
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+<div class="loginDiv"> 
+<div class="headerDiv">
+	<h2>OnePassword</h2>
+</div>
+<form class="loginForm" action="controller.php" method="post">
+	<input id="user" name="logUser" class="login" type="text" pattern=".{6,}"
+		title="Must be a minimum of 6 characters." size="19" required><br>
+	<label for="user">Username:</label>
+	<input id="pass" name="logPass" class="login" type="password" size="19" required><br><br>
+	<label for="pass">Password:</label>
+	<div class="loginReg">
+		<input class="loginButton" type="submit" value="Login">
+	</div>
+</form>
+<div class="register">
+	Need an account? <a href="register.html">Register here.</a>
+</div>
+</div>

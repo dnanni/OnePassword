@@ -1,0 +1,185 @@
+
+.login {
+	float: right;
+	margin-right: 40px;
+	margin-top: 10px;
+	background-color: whitesmoke;
+	border: none;
+}
+
+.login2 {
+	float: right;
+	margin-right: 49px;
+	margin-top: 10px;
+	background-color: whitesmoke;
+	border: none;
+}
+
+textarea {
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	background-color: whitesmoke;
+	border: none;
+}
+
+input[type="text"] {
+	width: 150px;
+	height: 25px;
+}
+
+input[type="password"] {
+	width: 150px;
+	height: 25px;
+}
+
+.loginForm {
+	border-radius: 12px;
+	border: 2px solid #1E90FF;
+	height: 140px;
+	width: 330px;
+	margin-left: 10px;
+}
+
+label {
+	margin-top: -7px;
+	margin-left: 50px;
+	display: inline-block;
+	font-style: italic;
+	font-size: 18px;
+}
+
+.loginReg {
+	margin-top: 30px;
+	margin-left: 80px;
+}
+
+.loginReg2 {
+	margin-top: 50px;
+	margin-left: 65px;
+}
+
+.loginDiv {
+	background-color: lightgray;
+	padding: 9px;
+	border-radius: 12px;
+	width: 355px;
+	padding-bottom: 20px;
+}
+
+.loginDiv2 {
+	background-color: lightgray;
+	padding: 9px;
+	border-radius: 12px;
+	width: 600px;
+	padding-bottom: 20px;
+}
+
+.loginButton {
+	margin-left: -22px;
+	margin-top: -10px;
+	background-color: #1E90FF;
+    border: none;
+    color: white;
+    padding: 10px 91px 10px 91px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.loginButton2 {
+	margin-left: -35px;
+	margin-top: -20px;
+	background-color: #1E90FF;
+    border: none;
+    color: white;
+    padding: 12px 40px 12px 40px;
+    font-size: 14px;
+    position: absolute;
+    
+}
+
+.loginButton3 {
+	margin-left: 12px;
+	margin-top: -4px;
+	background-color: #1E90FF;
+    border: none;
+    color: white;
+    padding: 12px 40px 12px 40px;
+    font-size: 14px;
+    float: right;
+}
+
+.homeButtons {
+	width: 290px;
+	height: 75px;
+	margin-left: 170px;
+	margin-top: 10px;
+}
+
+h2 {
+	margin-left: 5px;
+	margin-top: 9px;
+	margin-bottom: 14px;
+	color: #1E90FF;
+	font-size: 37px;
+}
+
+h3 {
+	font-size: 27px;
+	color: #1E90FF;
+	margin-top: 9px;
+	margin-bottom: 14px;
+	margin-left: 67px;
+}
+
+.headerDiv {
+	border-radius: 12px;
+	width: 220px;
+	margin-left: 66px;
+}
+
+.headerDiv2 {
+	border-radius: 12px;
+	width: 280px;
+	margin-left: 69px;
+}
+
+.register {
+	font-size: 14px;
+	margin-left: 85px;
+}
+
+.adjust {
+	margin-left: 80px;
+}
+
+.add {
+	border-radius: 12px;
+	border: 2px solid #1E90FF;
+	height: 160px;
+	width: 350px;
+	margin-left: 10px;
+}
+
+.pass {
+	font-size: 16px;
+	color: black;
+	border-radius: 5px;
+	padding: 3px;
+	border: 2px solid gray;
+	background-color: whitesmoke;
+	margin-bottom: -20px;
+}
+
+.delete {
+	background-color: rgb(233, 112, 0);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 7px 15px 6px 15px;
+    font-size: 10px;
+    margin-top: -3px;
+    margin-right: -3px;
+    float: right;
+}

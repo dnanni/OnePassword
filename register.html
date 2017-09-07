@@ -1,0 +1,16 @@
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+<div class="loginDiv">
+	<h3>Create an Account</h3>
+<form class="loginForm" action="controller.php" method="post">
+	<input id="user" name="regUser" class="login" type="text" pattern=".{6,}"
+		title="Must be a minimum of 6 characters." size="19" required><br>
+	<label for="user">Username:</label>
+	<input id="pass" name="regPass" class="login" type="password" pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{6,}$" 
+		title="Must have one number and 6 characters." size="19" required><br><br>
+	<label for="pass">Password:</label>
+	<div class="loginReg">
+		<input class="loginButton" type="submit" value="Register">
+	</div>
+</form>
+</div>
